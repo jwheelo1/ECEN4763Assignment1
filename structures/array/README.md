@@ -1,6 +1,6 @@
 # Data Structures Array
 
-Array is a data structure that stores data in continuous memory locations where each element is accessed using an array index. The location of each element can be determined by adding an offset to the first element in the array.
+Array is a data structure that stores data in continuous memory locations where each element is accessed using an array index. The location of each element can be determined by adding an offset to the first element in the array. Your implementation can be built onto the existing python array data structure.
 
 ## Getting Started Steps
 
