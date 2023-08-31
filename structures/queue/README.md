@@ -25,8 +25,8 @@ Queue is similar to stacks, in that it is a linear data structure. The order in 
 
 - The constructor for the class accepts an integer maxsize and nothing else
 - The function isEmpty(self) returns TRUE if the queue is empty and FALSE if it is not
-- The function enqueue(self,my_queue) adds an element to the queue
-- The function dequeue(self) removes the first element added to the queue
+- The function enqueue(self,my_queue) adds an element to the queue, return FALSE if not successful and TRUE otherwise
+- The function dequeue(self) removes the first element added to the queue, return FALSE if not successful and TRUE otherwise
 - The function queue_size(self) returns the size of the queue
 - The function empty(self) empties the entire queue
 - The function get_space_complexity(), returns the space complexity of the data structure
