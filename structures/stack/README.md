@@ -25,8 +25,8 @@ Stack is a linear data structure that collects and stores data in a linear manne
 
 - The constructor for the class accepts an integer maxsize and nothing else
 - The function isEmpty(self) returns TRUE if the stack is empty and FALSE if it is not
-- The function push(self,my_stack) adds an element to the stack
-- The function pop(self) removes the last element added to the stack
+- The function push(self,my_stack) adds an element to the stack, return FALSE if not successful and TRUE otherwise
+- The function pop(self) removes the last element added to the stack, return FALSE if not successful and TRUE otherwise
 - The function stack_size(self) returns the size of the stack
 - The function top_peek(self) returns the value of the topmost element of the stack (last pushed)
 - The function empty(self) empties the entire stack
