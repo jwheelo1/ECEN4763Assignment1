@@ -24,13 +24,13 @@ Array is a data structure that stores data in continuous memory locations where 
 
 ## Interface
 
-- insert(self, value, index=-1), when index >= 0 insert into that specific index otherwise append to the end.
+- insert(self, value, index=-1), when 0 <= index < array size, insert into that specific index. If the index is -1 or is larger than array size, append to the array.
 - get_value(index), return the value at the specific index, return None if index does not exist
 - get_index(value), return the index for the specific value, return None if value does not exist
 - remove(value), remove value and return the value, return None if value does not exist
 - empty(), remove all values from array
-- is_empty(), return true if the array is empty
-- exists(value), return true if the array contains value
+- is_empty(), return true if the array is empty, false otherwise
+- exists(value), return true if the array contains value, false otherwise
 - get_size(), return the number of elements in the array
 - get_space_complexity(), return the space complexity of the data structure as a string, ex. return 'O(2^n)'
 
